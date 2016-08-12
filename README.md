@@ -37,11 +37,14 @@ Once you have finished work on your local branch you are ready to commit your ch
 *You can have multiple commits in your local branch*
 
 ### 3. Merge with dev branch
-Now you should be able to pull and merge your with **dev** branch:
+Now you should be able to merge your local branch with **dev** branch:
 
 > git checkout dev
+
 > git pull origin dev
-> git checkout MY_LOCAL_BRANCH
+
+> git checkout PREFIX/MY-BRANCH-NAME-JIRA-TASK
+
 > git merge dev
 
 ### 4. Push to repository 
