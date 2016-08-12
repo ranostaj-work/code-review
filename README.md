@@ -3,6 +3,7 @@
 ### 1. Create your local branch
 
 Create you own local branch from **origin/dev**
+
 *Remember to **always pull origin/dev** before you make any local branch*
 > git checkout -b PREFIX/MY-BRANCH-NAME-JIRA-TASK origin/dev
 
@@ -22,12 +23,12 @@ Create you own local branch from **origin/dev**
 ### 2. Commit your changes
 Once you have finished work on your local branch you are ready to commit your changes:
 > git add .
-git commit -m "Commit message"
+> git commit -m "Commit message"
 
 .. later on ...
 
 > git add .
- git commit -m "Commit message 2"
+> git commit -m "Commit message 2"
 
 
 *You can have multiple commits in your local branch*
