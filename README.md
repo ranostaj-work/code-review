@@ -4,7 +4,8 @@
 
 Create you own local branch from **origin/dev**
 
-*Remember to **always pull origin/dev** before you make any local branch*
+Remember to **always pull origin/dev** before you make any local branch
+
 > git checkout -b PREFIX/MY-BRANCH-NAME-JIRA-TASK origin/dev
 
 ### Branch name scheme
@@ -18,16 +19,18 @@ Create you own local branch from **origin/dev**
     * Branch name should be short and self explanatory eg. `reservation-ui, reservation-edit, enable-active-flag` etc.
 * JIRA-TASK
     * Task or Story number in JIRA eg. `NEPT-323`
-    * If branch is no related to any JIRA task then just omit JIRA-TASK
+    * If branch is not related to any JIRA task then just omit JIRA-TASK part
 
 ### 2. Commit your changes
 Once you have finished work on your local branch you are ready to commit your changes:
 > git add .
+
 > git commit -m "Commit message"
 
 .. later on ...
 
 > git add .
+
 > git commit -m "Commit message 2"
 
 
