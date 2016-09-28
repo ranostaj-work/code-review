@@ -77,7 +77,7 @@ This is comment PR template telling reviewers in detail what the PR is about:
 
 ```
 # Reviewers 
-* @reviewer_name, ...
+* @alena-k, @ranostaj-work, @m-janos, @JakubMercz, @marianLipovsky, @lukasjusko, @Jurcik84, @kristina-kovacikova , @MartinJurcoGlina
 
 # JIRA
 * Related story:STORY-XXX  or N/A (if JIRA is not applicabe)
